@@ -57,3 +57,6 @@ void tampilkanHasilFibonacci() {
 }
 / === Function Menu ===
 void tampilkanMenu() {
+    cout << "\n======================================" << endl;
+    cout << "       MENU PENGECEKAN BILANGAN       " << endl;
+    cout << "======================================" << endl;
