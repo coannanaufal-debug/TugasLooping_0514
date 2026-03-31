@@ -31,3 +31,6 @@ bool apakahFibonacci(int n) {
         a = b;
         b = temp;
     }
+    // Jika a sama dengan n, maka n adalah bagian dari deret Fibonacci
+    return (a == n);
+}
