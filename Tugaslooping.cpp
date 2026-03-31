@@ -60,3 +60,6 @@ void tampilkanMenu() {
     cout << "\n======================================" << endl;
     cout << "       MENU PENGECEKAN BILANGAN       " << endl;
     cout << "======================================" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar Program" << endl;
