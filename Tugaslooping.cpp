@@ -52,3 +52,6 @@ void tampilkanHasilFibonacci() {
     if (apakahFibonacci(angkaInput)) {
         cout << ">>> " << angkaInput << " adalah bagian dari deret Fibonacci." << endl;
     } else {
+        cout << ">>> " << angkaInput << " BUKAN bagian dari deret Fibonacci." << endl;
+    }
+}
