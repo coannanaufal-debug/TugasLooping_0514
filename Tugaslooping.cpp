@@ -43,3 +43,7 @@ void inputAngka() {
 void tampilkanHasilPrima() {
     if (apakahPrima(angkaInput)) {
         cout << ">>> " << angkaInput << " adalah Bilangan Prima." << endl;
+        } else {
+        cout << ">>> " << angkaInput << " BUKAN Bilangan Prima." << endl;
+    }
+}
