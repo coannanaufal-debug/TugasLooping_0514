@@ -19,3 +19,9 @@ bool apakahPrima(int n) {
     }
     return true;
 }
+// === Function Pengecekan Bilangan Fibonacci (bool) ===
+bool apakahFibonacci(int n) {
+    if (n < 0) return false;
+    
+    int a = 0;
+    int b = 1;
