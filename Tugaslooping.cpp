@@ -55,3 +55,5 @@ void tampilkanHasilFibonacci() {
         cout << ">>> " << angkaInput << " BUKAN bagian dari deret Fibonacci." << endl;
     }
 }
+/ === Function Menu ===
+void tampilkanMenu() {
