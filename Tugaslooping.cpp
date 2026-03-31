@@ -34,3 +34,8 @@ bool apakahFibonacci(int n) {
     // Jika a sama dengan n, maka n adalah bagian dari deret Fibonacci
     return (a == n);
 }
+// === Prosedur Input Angka ===
+void inputAngka() {
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angkaInput;
+}
