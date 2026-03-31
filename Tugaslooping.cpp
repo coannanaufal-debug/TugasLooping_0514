@@ -10,3 +10,12 @@ int pilihanMenu;
 bool apakahPrima(int n) {
     if (n <= 1) return false;
     int i = 2;
+    // Menggunakan while loop untuk mengecek pembagi
+    while (i <= sqrt(n)) {
+        if (n % i == 0) {
+            return false;
+        }
+        i++;
+    }
+    return true;
+}
