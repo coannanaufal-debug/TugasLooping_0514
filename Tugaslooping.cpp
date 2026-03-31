@@ -67,3 +67,9 @@ void tampilkanMenu() {
     cout << "Pilih menu (0-2): ";
     cin >> pilihanMenu;
 }
+// === Function Main ===
+int main() {
+    bool berjalan = true;
+
+    while (berjalan) {
+        tampilkanMenu();
