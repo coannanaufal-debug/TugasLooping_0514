@@ -47,3 +47,8 @@ void tampilkanHasilPrima() {
         cout << ">>> " << angkaInput << " BUKAN Bilangan Prima." << endl;
     }
 }
+// === Prosedur Menampilkan Hasil Fibonacci ===
+void tampilkanHasilFibonacci() {
+    if (apakahFibonacci(angkaInput)) {
+        cout << ">>> " << angkaInput << " adalah bagian dari deret Fibonacci." << endl;
+    } else {
