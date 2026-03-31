@@ -73,3 +73,16 @@ int main() {
 
     while (berjalan) {
         tampilkanMenu();
+        switch (pilihanMenu) {
+            case 1:
+                inputAngka();
+                tampilkanHasilPrima();
+                break;
+            case 2:
+                inputAngka();
+                tampilkanHasilFibonacci();
+                break;
+            case 0:
+                cout << "Terima kasih! Keluar dari program..." << endl;
+                berjalan = false;
+                break;
